@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-02T13:37:42 EST" name="Ecomm-regression" finished-at="2022-12-02T13:39:42 EST" duration-ms="119020">
+    <groups>
+      <group name="smoke-test">
+        <method signature="SignupTests.signUpPageTest()[pri:0, instance:tests.SignupTests@4de4b452]" name="signUpPageTest" class="tests.SignupTests"/>
+        <method signature="SignupTests.test2()[pri:0, instance:tests.SignupTests@4de4b452]" name="test2" class="tests.SignupTests"/>
+        <method signature="SignupTests.test3()[pri:0, instance:tests.SignupTests@4de4b452]" name="test3" class="tests.SignupTests"/>
+      </group> <!-- smoke-test -->
+      <group name="signupPage">
+        <method signature="SignupTests.signUpPageTest()[pri:0, instance:tests.SignupTests@4de4b452]" name="signUpPageTest" class="tests.SignupTests"/>
+      </group> <!-- signupPage -->
+    </groups>
+    <test started-at="2022-12-02T13:37:42 EST" name="regression" finished-at="2022-12-02T13:39:42 EST" duration-ms="119020">
+      <class name="tests.AmazonSearch">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:38:00 EST" name="setup" finished-at="2022-12-02T13:38:00 EST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AmazonSearchTest(java.lang.String)[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:38:00 EST" name="AmazonSearchTest" data-provider="searchItems" finished-at="2022-12-02T13:38:12 EST" duration-ms="11810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[coffee mug]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonSearchTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:38:12 EST" name="quitDriver" finished-at="2022-12-02T13:38:13 EST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:38:13 EST" name="setup" finished-at="2022-12-02T13:38:17 EST" duration-ms="3780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AmazonSearchTest(java.lang.String)[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:38:17 EST" name="AmazonSearchTest" data-provider="searchItems" finished-at="2022-12-02T13:38:27 EST" duration-ms="10791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[coffee maker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonSearchTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:38:27 EST" name="quitDriver" finished-at="2022-12-02T13:38:28 EST" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:38:28 EST" name="setup" finished-at="2022-12-02T13:38:32 EST" duration-ms="3826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AmazonSearchTest(java.lang.String)[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:38:32 EST" name="AmazonSearchTest" data-provider="searchItems" finished-at="2022-12-02T13:38:47 EST" duration-ms="15702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sugar container]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonSearchTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:38:47 EST" name="quitDriver" finished-at="2022-12-02T13:38:48 EST" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:38:48 EST" name="setup" finished-at="2022-12-02T13:38:52 EST" duration-ms="3595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AmazonSearchTest(java.lang.String)[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:38:52 EST" name="AmazonSearchTest" data-provider="searchItems" finished-at="2022-12-02T13:39:08 EST" duration-ms="15953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Salt shaker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonSearchTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:39:08 EST" name="quitDriver" finished-at="2022-12-02T13:39:08 EST" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:39:08 EST" name="setup" finished-at="2022-12-02T13:39:12 EST" duration-ms="3673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AmazonSearchTest(java.lang.String)[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:39:12 EST" name="AmazonSearchTest" data-provider="searchItems" finished-at="2022-12-02T13:39:25 EST" duration-ms="13418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[water filter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonSearchTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:39:25 EST" name="quitDriver" finished-at="2022-12-02T13:39:26 EST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:39:26 EST" name="setup" finished-at="2022-12-02T13:39:29 EST" duration-ms="3827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AmazonSearchTest(java.lang.String)[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:39:29 EST" name="AmazonSearchTest" data-provider="searchItems" finished-at="2022-12-02T13:39:41 EST" duration-ms="11539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kitchen Knife]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonSearchTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.AmazonSearch@28f2a10f]" started-at="2022-12-02T13:39:41 EST" name="quitDriver" finished-at="2022-12-02T13:39:42 EST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.AmazonSearch -->
+      <class name="tests.SignupTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignupTests@4de4b452]" started-at="2022-12-02T13:37:43 EST" name="setup" finished-at="2022-12-02T13:37:49 EST" duration-ms="6364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signUpPageTest()[pri:0, instance:tests.SignupTests@4de4b452]" started-at="2022-12-02T13:37:49 EST" name="signUpPageTest" description="verify signup components" finished-at="2022-12-02T13:37:56 EST" duration-ms="6970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpPageTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignupTests@4de4b452]" started-at="2022-12-02T13:37:56 EST" name="setup" finished-at="2022-12-02T13:37:56 EST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test2()[pri:0, instance:tests.SignupTests@4de4b452]" started-at="2022-12-02T13:37:56 EST" name="test2" finished-at="2022-12-02T13:37:58 EST" duration-ms="1874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignupTests@4de4b452]" started-at="2022-12-02T13:37:58 EST" name="setup" finished-at="2022-12-02T13:37:58 EST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test3()[pri:0, instance:tests.SignupTests@4de4b452]" started-at="2022-12-02T13:37:58 EST" name="test3" finished-at="2022-12-02T13:38:00 EST" duration-ms="2244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- tests.SignupTests -->
+    </test> <!-- regression -->
+  </suite> <!-- Ecomm-regression -->
+</testng-results>
