@@ -21,7 +21,6 @@ public class AmazonSearchWithExcel {
 	public void quitDriver() {
 		Driver.quitDriver();
 	}
-	
 	@Test
 	public void test() {
 		ExcelUtils.openExcelFile("./src/test/resources/testData/searchItems.xlsx", "Sheet1");
