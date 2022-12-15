@@ -78,6 +78,7 @@ public class SignupTests {
 	}
 
 	@AfterMethod
+	
 	public void quitDriver() {
 	Driver.getDriver().quit();
 	}
