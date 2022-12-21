@@ -265,7 +265,7 @@ public class petStoreApiTest {
   
   @Test
   public void postCatJson() {
-	  File requestBodyFile = new File("./src/test/resources/JsonTestData/petStoreBody.json"); 
+	  File requestBodyFile = new File("./src/test/resources/JsonTestData/petStore.json"); 
 
 	  Response myRes = RestAssured
 	  .given().accept(ContentType.JSON).body(requestBodyFile).contentType("application/json")
