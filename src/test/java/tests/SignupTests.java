@@ -27,8 +27,6 @@ public class SignupTests {
 		Driver.getDriver().get("https://ebay.com");
 		System.out.println("Test3"+ "Thread: " + Thread.currentThread().getId());
 	}
-	
-
 	@Test(groups = {"smoke-test", "signupPage"},description = "verify signup components")
 	public void signUpPageTest() throws InterruptedException {
 		CommonPage commonPage = new CommonPage();
@@ -79,9 +77,10 @@ public class SignupTests {
 		Assert.assertTrue(signuppage.backToLoginLink.isDisplayed());
 	}
 
-//	@AfterMethod
-//	public void quitDriver() {
-//		Driver.getDriver().quit();
-//	}
+	@AfterMethod
+	
+	public void quitDriver() {
+	Driver.getDriver().quit();
+	}
 
 }
