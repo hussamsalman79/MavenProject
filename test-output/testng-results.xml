@@ -1,25 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-21T09:27:02 EST" name="Default suite" finished-at="2022-12-21T09:27:06 EST" duration-ms="3754">
+  <suite started-at="2022-12-21T19:09:14 EST" name="petStoreApi" finished-at="2022-12-21T19:09:20 EST" duration-ms="5057">
     <groups>
     </groups>
-    <test started-at="2022-12-21T09:27:02 EST" name="Default test" finished-at="2022-12-21T09:27:06 EST" duration-ms="3754">
+    <test started-at="2022-12-21T19:09:14 EST" name="APITests" finished-at="2022-12-21T19:09:20 EST" duration-ms="5057">
       <class name="petStoteApi.petStoreApiTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:petStoteApi.petStoreApiTest@20ccf40b]" started-at="2022-12-21T09:27:02 EST" name="setUp" finished-at="2022-12-21T09:27:03 EST" duration-ms="534" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:petStoteApi.petStoreApiTest@28f2a10f]" started-at="2022-12-21T19:09:14 EST" name="setUp" finished-at="2022-12-21T19:09:15 EST" duration-ms="656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="postCatJson()[pri:0, instance:petStoteApi.petStoreApiTest@20ccf40b]" started-at="2022-12-21T09:27:03 EST" name="postCatJson" finished-at="2022-12-21T09:27:05 EST" duration-ms="2704" status="PASS">
+        <test-method signature="invalidI()[pri:0, instance:petStoteApi.petStoreApiTest@28f2a10f]" started-at="2022-12-21T19:09:15 EST" name="invalidI" finished-at="2022-12-21T19:09:18 EST" duration-ms="3246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidI -->
+        <test-method signature="addPet()[pri:0, instance:petStoteApi.petStoreApiTest@28f2a10f]" started-at="2022-12-21T19:09:15 EST" name="addPet" finished-at="2022-12-21T19:09:17 EST" duration-ms="2221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPet -->
+        <test-method signature="postACat()[pri:0, instance:petStoteApi.petStoreApiTest@28f2a10f]" started-at="2022-12-21T19:09:17 EST" name="postACat" finished-at="2022-12-21T19:09:18 EST" duration-ms="1011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postACat -->
+        <test-method signature="postAfish()[pri:0, instance:petStoteApi.petStoreApiTest@28f2a10f]" started-at="2022-12-21T19:09:18 EST" name="postAfish" finished-at="2022-12-21T19:09:19 EST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAfish -->
+        <test-method signature="getPetByStatus()[pri:0, instance:petStoteApi.petStoreApiTest@28f2a10f]" started-at="2022-12-21T19:09:18 EST" name="getPetByStatus" finished-at="2022-12-21T19:09:19 EST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetByStatus -->
+        <test-method signature="postCatJson()[pri:0, instance:petStoteApi.petStoreApiTest@28f2a10f]" started-at="2022-12-21T19:09:19 EST" name="postCatJson" finished-at="2022-12-21T19:09:19 EST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCatJson -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:petStoteApi.petStoreApiTest@20ccf40b]" started-at="2022-12-21T09:27:05 EST" name="cleanUp" finished-at="2022-12-21T09:27:06 EST" duration-ms="480" status="PASS">
+        <test-method signature="getPetbyId()[pri:0, instance:petStoteApi.petStoreApiTest@28f2a10f]" started-at="2022-12-21T19:09:19 EST" name="getPetbyId" finished-at="2022-12-21T19:09:19 EST" depends-on-methods="petStoteApi.petStoreApiTest.postACat" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetbyId -->
+        <test-method signature="updateCat()[pri:0, instance:petStoteApi.petStoreApiTest@28f2a10f]" started-at="2022-12-21T19:09:19 EST" name="updateCat" finished-at="2022-12-21T19:09:19 EST" depends-on-methods="petStoteApi.petStoreApiTest.postACat" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCat -->
+        <test-method signature="getAssertById()[pri:0, instance:petStoteApi.petStoreApiTest@28f2a10f]" started-at="2022-12-21T19:09:19 EST" name="getAssertById" finished-at="2022-12-21T19:09:19 EST" depends-on-methods="petStoteApi.petStoreApiTest.postACat, petStoteApi.petStoreApiTest.updateCat" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAssertById -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:petStoteApi.petStoreApiTest@28f2a10f]" started-at="2022-12-21T19:09:19 EST" name="cleanUp" finished-at="2022-12-21T19:09:20 EST" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- petStoteApi.petStoreApiTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- APITests -->
+  </suite> <!-- petStoreApi -->
 </testng-results>

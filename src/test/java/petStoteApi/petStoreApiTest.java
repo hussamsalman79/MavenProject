@@ -328,6 +328,7 @@ public class petStoreApiTest {
   
   
   // RestAssured chain Validation
+  // to be add from Dec 15 - RestAssured & PetStore API Tests Continues lecture
   
   
  
