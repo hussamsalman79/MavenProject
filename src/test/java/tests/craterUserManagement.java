@@ -1,7 +1,5 @@
 package tests;
-
 import org.testng.annotations.Test;
-
 import pages.caterDashboardPage;
 import pages.craterLoginPage;
 import utils.Driver;
